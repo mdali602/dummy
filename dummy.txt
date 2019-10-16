@@ -5,3 +5,7 @@ abhishek
 friends
 
 test for revert
+
+
+git branch -f master HEAD~1
+git branch -f master HEAD^
