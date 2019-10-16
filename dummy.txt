@@ -6,6 +6,18 @@ friends
 
 test for revert
 
+if you've commit and pushed somthing on master branch then there are the steps to revert it:
 
+step1
+git checkout -b master-copy
 git branch -f master HEAD~1
+        OR
+git branch -f master HEAD~2
+        OR
 git branch -f master HEAD^
+        OR
+git branch -f master HEAD^
+        OR
+git branch -f master commit_log
+
+
