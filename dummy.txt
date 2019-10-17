@@ -20,3 +20,24 @@ git branch -f master HEAD^
 git branch -f master commit_log
 
 ### Git cherry pick
+git cherry-pick commit_hash
+
+to pick multiple commit at once
+git cherry-pick commit_hash1 commit_hash2 ...
+
+fb702bd24bd4fa4a36a29a37598a53512e56500d        (prev commit_hash1)
+
+5a384d9f9c08cc95fbf6b3a2e9dc25d25e632089        (commit_hash1)
+.
+.
+.
+.
+.
+dd8dc5fe7d380358b7cae9bd5c46be730f536495        commit_hash5
+
+git cherry pick prev_commit_hash1..commit_hash5
+                OR
+git cherry pick commit_hash1^..commit_hash5
+
+
+note: in range starting poing is excluded therefore we use prev commit of satrt 
