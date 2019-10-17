@@ -4,8 +4,7 @@ kdfhlwejlwej
 abhishek
 friends
 
-test for revert
-
+### test for revert
 if you've commit and pushed somthing on master branch then there are the steps to revert it:
 
 step1
@@ -20,4 +19,4 @@ git branch -f master HEAD^
         OR
 git branch -f master commit_log
 
-
+### Git cherry pick
